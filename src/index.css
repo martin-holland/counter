@@ -1,13 +1,74 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+:root {
+  --bg-color-main: skyblue;; 
+  --bg-color-dark: black;
+  --bg-color-white: white;
+  --font-color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+body {
+  font-family: "Poppins"
+}
+
+main {
+  padding: 20px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--bg-color-white);
+  border: solid 2px var(--bg-color-main);
+
+}
+
+button {
+  background-color: skyblue;
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+header {
+  padding: 10px 20px;
+  background-color: var(--bg-color-main);
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  background-color: var(--bg-color-main);
+  color: var(--bg-color-dark);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 40px;
+
+}
+
+.odd {
+  background-color: lightseagreen;
+}
+
+.even {
+  background-color: mediumslateblue;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-color-main);
+  width: 100%;
+  height: 50px;
 }
