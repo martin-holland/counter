@@ -14,3 +14,15 @@ Simple app to show conditional formatting within a counter environment using rea
 * CSS
 * Javascript
 * Basic UX/UI Design
+* HTML
+
+## Sources
+
+https://reactjs.org/
+
+## Authors and Acknowledgements
+
+Margit Tennosaar
+
+* Github @margittennosaar
+* [Linkedin](https://www.linkedin.com/in/margittennosaar/)
