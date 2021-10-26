@@ -38,25 +38,12 @@ class Main extends Component {
     
 
     render() {
-
-        // Can also use:
         let circleClass = "";
         this.state.counter === 0
             ? (circleClass = "circle")
             : this.state.counter % 2 === 0
             ? (circleClass = "circle even")
             : (circleClass = "circle odd")
-
-        // let circleClass = "";
-
-        // if (this.state.counter === 0) {
-        //     circleClass = "circle";
-        // }
-        // else if (this.state.counter % 2 === 0) {
-        //     circleClass = "circle even"
-        // } else {
-        //     circleClass = "circle odd"
-        // }
 
 
         return (
