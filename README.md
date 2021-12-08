@@ -6,6 +6,10 @@ Simple app to show conditional formatting within a counter environment using rea
 
 ![alt text](counterApp.png?raw=true "Counter App Image")
 
+## Live Page
+
+<a href="https://mh-counter.netlify.app/">Live Counter App here!</a>
+
 ## Technologies Used:
 
 - React
