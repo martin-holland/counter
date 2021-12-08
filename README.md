@@ -20,11 +20,6 @@ Simple app to show conditional formatting within a counter environment using rea
 
 https://reactjs.org/
 
-Margit Tennosaar
-
-- Github @margittennosaar
-- [Linkedin](https://www.linkedin.com/in/margittennosaar/)
-
 ## Authors and Acknowledgements
 
 - Martin Holland
