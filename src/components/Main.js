@@ -5,36 +5,30 @@ class Main extends Component {
     counter: 0,
   };
 
-  addFiveHandler = () => {
-    this.setState({
-      counter: this.state.counter + 5,
-    });
-  };
-
   addOneHandler = () => {
     this.setState({
       counter: this.state.counter + 1,
     });
   };
 
-  removeOneHandler = () => {
+  addFiveHandler = () => {
     this.setState({
-      counter: this.state.counter - 1,
+      counter: this.state.counter + 5,
     });
-    if (this.state.counter < 0) {
+  };
+
+  removeOneHandler = () => {
+    if (this.state.counter > 0) {
       this.setState({
-        counter: 0,
+        counter: this.state.counter - 1,
       });
     }
   };
 
   removeFiveHandler = () => {
-    this.setState({
-      counter: this.state.counter - 5,
-    });
-    if (this.state.counter < 0) {
+    if (this.state.counter > 4) {
       this.setState({
-        counter: 0,
+        counter: this.state.counter - 5,
       });
     }
   };
